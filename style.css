@@ -1,0 +1,271 @@
+:root{
+    --main-purple: #9A0073;
+    --main-grey-light: rgb(240, 240, 240);
+    --main-grey-dark: rgb(182, 182, 182);
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.buttons{
+    background-color: var(--main-purple) !important;
+}
+.main-grey-dark{
+     color: var(--main-grey-dark)
+}
+.nav-items{
+    color: #9A0073;
+    font-size: 16px;
+    font-weight: 500;
+}
+.welcome-box{
+    height: 76vh;
+    padding: 0 3%;
+    background-color: rgb(252, 239, 245);
+}
+.welcome-to-spillcode-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 27%;
+    letter-spacing: 1px;
+    color: var(--main-purple);
+}
+.welcome-to-spillcode-text img{
+    width: 60%;
+}
+.intro-text{
+    text-align: left !important;
+    color: var(--main-purple);
+    line-height: 180%;
+    font-size: 16px;
+    margin-right: -5%;
+    width: 80%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif !important;
+}
+.intro-text-extra{
+    border-top: 1px solid rgb(214, 214, 214);
+    text-align: left !important;
+    line-height: 180%;
+    font-size: 16px;
+    margin-right: -5%;
+    width: 80%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif !important;
+}
+.intro-text-mobile{
+    text-align: justify !important;
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.welcome-img-box{
+    position: absolute;
+}
+.welcome-img-box-mobile{
+    position: absolute;
+}
+.welcome-img-box-mobile-placeholder{
+    height: 300px;
+}
+.welcome-img{
+    margin-top: 15%;
+    animation: move 4s ease-in infinite alternate;
+}
+#welcome-img-mobile{
+    margin-top: -20% !important;
+    margin-left: -7% !important;
+}
+@keyframes move{
+    from{
+        margin-top: 50px;
+    }
+    to{
+        margin-top: 10%;
+    }
+}
+
+.waves{
+    background-image: url("https://res.cloudinary.com/dcft8yhab/image/upload/v1579551844/wave_1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-top: -4%;
+    background-color: rgb(252, 239, 245);
+}
+.solutions{
+    background-color: var(--main-purple);
+    margin-top: -9%;
+    padding-bottom: 10%;
+}
+#solutions-heading{
+    color: rgb(240, 240, 240);
+}
+.solutions-card-image-height{
+    height: 220px;
+}
+.email-subscription-box{
+    background-color: #3F3D56;
+    margin-top: -2%;
+    padding-bottom: 5%;
+    position: relative;
+}
+#email-subscription-header{
+    padding-top: 10px;
+    margin-bottom: 0 !important;
+    color: var(--main-grey-light);
+}
+.extras h4{
+    font-weight: bold;
+}
+.extras-inner-container{
+    margin-top: 5%;
+}
+.extras-button{
+    transition: all .3s;
+}
+.extras-button:hover{
+    background-color: white !important;
+    color: var(--main-purple)
+}
+.affiliate{
+    background-color: #3F3D56;
+}
+.affiliate-heading{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: var(--main-grey-light);
+}
+.affiliate-img{
+    height: 300px;
+    margin-top: 40px;
+}
+.affiliate-text{
+    font-size: 20px;
+    color: var(--main-grey-dark);
+    border: 1px solid var(--main-grey-dark);
+    border-bottom: none;
+    padding: 5%;
+    font-style: italic;
+    font-weight: bold;
+}
+.affiliate-box-wave{
+    margin-top: -10px;
+}
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%; margin-top: -10%;}
+#affiliate-subscribe-mail-heading{
+    margin-bottom: 0;
+}
+#affiliate-extra-text{
+    color: var(--main-grey-light);
+    margin-top: -1px;
+}
+.email-input-field{
+    width: 50% !important;
+    height: 50px !important;
+}
+.email-input-field-mobile{
+    width: 80% !important;
+    height: 50px !important;
+}
+.email-input-field-button{
+    height: 50px !important;
+    width: 150px !important;
+    background-color: var(--main-purple) !important;
+    font-size: 20px !important;
+}
+.get-started-section{
+    height: 80vh;
+    padding-top: 100px;
+
+}
+.get-started-div{
+    background-color: var(--main-purple);
+    height: 300px;
+    padding-top: 50px;
+}
+.getting-started-text{
+    font-size: 22px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#getting-started-button{
+    margin-top: 20px;
+    color: var(--main-purple);
+    border-radius: 10px;
+    border: none;
+    padding: 17px;
+    width: 120px;
+}
+.social-icons{
+    margin-top: 3%;
+}
+.social-icons a{
+    color: rgb(97, 97, 97);
+    margin-left: 20px;
+}
+.social-icons a i{
+    font-size: 55px;
+}
+#facebook-icon{
+    transition: all .3s;
+}
+#facebook-icon:hover{
+    color: #4267B2;
+}
+#twitter-icon{
+    transition: all .3s;
+}
+#twitter-icon:hover{
+    color: #1DA1F2;
+}
+#instagram-icon{
+    transition: all .3s;
+}
+#instagram-icon:hover{
+    color: #C62E90;
+}
+#footer{
+    color: var(--main-grey-dark);
+    font-size: larger;
+}
+
+@media screen and (max-width: 400px){
+    .welcome-to-spillcode-text{
+        margin-top: 50px !important;
+        font-size: 50px;
+    }
+    .welcome-img{
+        margin-left: -3%;
+    }
+    #email-subscription-header{
+        font-size: 30px;
+        font-size: bolder !important;
+    }
+    #email-subscription-text{
+        font-size: 95%;
+    }
+    .affiliate{
+        padding-top: 5%;
+    }
+    .affiliate-heading{
+        padding-bottom: 0px !important;
+    }
+}
