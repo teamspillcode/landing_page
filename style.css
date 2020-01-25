@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: bold;
-    margin-top: 27%;
+    margin-top: 23%;
     letter-spacing: 1px;
     color: var(--main-purple);
 }
@@ -66,6 +66,7 @@ h1,h2,h3,h4,h5,h6{
     width: 80%;
     margin-top: 2%;
     font-family: 'Poppins', sans-serif !important;
+    padding-top: 15px;
 }
 .intro-text-mobile{
     text-align: justify !important;
@@ -74,6 +75,11 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 auto;
     margin-top: 2%;
     font-weight: bold;
+}
+#whatsapp-top-button{
+    background-color: transparent !important;
+    border: 2px solid green;
+    color: green;
 }
 .welcome-img-box{
     position: absolute;
@@ -250,7 +256,7 @@ h1,h2,h3,h4,h5,h6{
 @media screen and (max-width: 400px){
     .welcome-to-spillcode-text{
         margin-top: 50px !important;
-        font-size: 50px;
+        font-size: 45px;
     }
     .welcome-img{
         margin-left: -3%;
