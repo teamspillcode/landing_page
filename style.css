@@ -288,4 +288,7 @@ nav{
     .affiliate-heading{
         padding-bottom: 0px !important;
     }
+    #affiliate-extra-text{
+        padding: 1%;
+    }
 }
