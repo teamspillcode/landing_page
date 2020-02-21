@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SpillCode</title>
-    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One|Rajdhani&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Baloo|Lilita+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https:/ /fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext"">
+    <link
+      href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Poiret+One|Rajdhani&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo|Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https:/
+    /fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext"">
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -23,8 +30,16 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link
+      href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      type="text/css"
+    />
   </head>
   <body>
     <nav>
@@ -43,43 +58,68 @@
           <li><a href="#" class="nav-items">About Us</a></li>
           <li><a href="#solutions" class="nav-items">Solutions</a></li>
           <li>
-            <a href="#" class="nav-items">Recent Projects</a>
           </li>
-          <li><a href="#" class="nav-items">Promo</a></li>
-          <li><a href="#affiliate" class="nav-items">Become An Affiliate</a></li>
-
+          <li><a href="#awesome_perks" class="nav-items">Awesome Perks</a></li>
+          <li>
+            <a href="#affiliate" class="nav-items">Become An Affiliate</a>
+          </li>
         </ul>
       </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
       <li><a href="sass.html">About Us</a></li>
       <li><a href="badges.html">Solutions</a></li>
-      <li><a href="collapsible.html">Recent Projects</a></li>
-      <li><a href="mobile.html">Promo</a></li>
+      <li><a href="#awesome_perks">Awesome Perks</a></li>
       <li><a href="mobile.html">Become An Affiliate</a></li>
     </ul>
+
+    <!-- Modal Structure -->
+    <div id="contact_modal" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Agree</a
+        >
+      </div>
+    </div>
 
     <article class="row welcome-box">
       <!-- THIS DISPLAYS ON LARBE SCREENS -->
       <section class="col s12 m6 l4">
         <h1 class="welcome-to-spillcode-text">Team SpillCode</h1>
         <p id="intro-te" class="intro-text center-align">
-          We help businesses build solutions with the aim of improving sales, 
+          We help businesses build solutions with the aim of improving sales,
           branding, and visibility, using web/mobile applications
         </p>
         <p class="intro-text-extra center-align">
           Shaping the world... one line at a time.
         </p>
-        <p><a class="waves-effect waves-light btn-large buttons">Request An Application</a></p>
-        <p><a class="waves-effect waves-light btn-large buttons" id="whatsapp-top-button"><img src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579989401/whatsapp_icon.png" height="30px" style="margin-top:14px; margin-left: -20px; position: absolute;" alt=""><span style="margin-left: 15px">Join Our Community</span></a></p>
+        <p>
+          <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Request An Application</button>
+        </p>
+        <p>
+          <a
+            class="waves-effect waves-light btn-large buttons"
+            id="whatsapp-top-button"
+            ><img
+              src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579989401/whatsapp_icon.png"
+              height="30px"
+              style="margin-top:14px; margin-left: -20px; position: absolute;"
+              alt=""
+            /><span style="margin-left: 15px">Join Our Community</span></a
+          >
+        </p>
       </section>
       <section class="col s12 m6 l6">
         <div class="welcome-img-box">
           <img
-          src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523953/undraw_mobile_wireframe_euf4.svg"
-          class="responsive-img welcome-img"
-          alt=""
-        />
+            src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523953/undraw_mobile_wireframe_euf4.svg"
+            class="responsive-img welcome-img"
+            alt=""
+          />
         </div>
       </section>
     </article>
@@ -93,53 +133,87 @@
         <p class="white-text">
           Because of our target and resolve to help small and medium scale
           businesses grow and reach a wider audience as well as make more profit
-          and improve brand, we develop solutions targetted towards them. We exists
-          to help you and we  sure we leave your business in a better place. we try 
-          to acheive this by providing the following solutions.
+          and improve brand, we develop solutions targetted towards them. We
+          exists to help you and we sure we leave your business in a better
+          place. we try to acheive this by providing the following solutions.
         </p>
 
         <div class="solution-cards">
           <section class="row">
             <div class="col s12 m6 l5 offset-l1">
               <div class="card z-depth-3">
-                <div class="card-image waves-effect waves-block waves-light solutions-card-image-height">
-                  <img class="activator" height="100%" src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523950/undraw_add_to_cart_vkjp_1.svg">
+                <div
+                  class="card-image waves-effect waves-block waves-light solutions-card-image-height"
+                >
+                  <img
+                    class="activator"
+                    height="100%"
+                    src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523950/undraw_add_to_cart_vkjp_1.svg"
+                  />
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Ecommerce<i class="material-icons right">more_vert</i></span>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Ecommerce<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Ecommerce<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4"
+                    >Ecommerce<i class="material-icons right">close</i></span
+                  >
                   <p>
-                    You can make more selling online. With a massive increase in ecommerce businesses, 
-                    customers are getting more comfortable buying their products online. If you own a 
-                    small business, manufacture your own products, etc. You might want to try taking 
-                    your business to the next level with ecommerce.
+                    You can make more selling online. With a massive increase in
+                    ecommerce businesses, customers are getting more comfortable
+                    buying their products online. If you own a small business,
+                    manufacture your own products, etc. You might want to try
+                    taking your business to the next level with ecommerce.
                   </p>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
               </div>
             </div>
-  
+
             <div class="col s12 m6 l5">
               <div class="card z-depth-3">
-                <div class="card-image waves-effect waves-block waves-light solutions-card-image-height">
-                  <img class="activator responsive-img" src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523950/undraw_detailed_information_3sp6.svg">
+                <div
+                  class="card-image waves-effect waves-block waves-light solutions-card-image-height"
+                >
+                  <img
+                    class="activator responsive-img"
+                    src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523950/undraw_detailed_information_3sp6.svg"
+                  />
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Portfolios<i class="material-icons right">more_vert</i></span>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Portfolios<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Portfolios<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4"
+                    >Portfolios<i class="material-icons right">close</i></span
+                  >
                   <p>
-                    From creating a portfolio for your business where you advertise what your business is 
-                    and add  about information on how people could get in contact with you ( like this site 
-                    you're on right now ), to creating a personal portfolio where you talk about your services 
-                    and how people could get in contact with you. We got you covered.
+                    From creating a portfolio for your business where you
+                    advertise what your business is and add about information on
+                    how people could get in contact with you ( like this site
+                    you're on right now ), to creating a personal portfolio
+                    where you talk about your services and how people could get
+                    in contact with you. We got you covered.
                   </p>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
               </div>
             </div>
@@ -148,42 +222,74 @@
           <section class="row">
             <div class="col s12 m6 l5 offset-l1">
               <div class="card z-depth-3">
-                <div class="card-image waves-effect waves-block waves-light solutions-card-image-height">
-                  <img class="activator responsive-img" src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523950/undraw_add_to_cart_vkjp_1.svg">
+                <div
+                  class="card-image waves-effect waves-block waves-light solutions-card-image-height"
+                >
+                  <img
+                    class="activator responsive-img"
+                    src="https://res.cloudinary.com/dcft8yhab/image/upload/v1582299409/undraw_blogging_vpvv.svg"
+                  />
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Blogs<i class="material-icons right">more_vert</i></span>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Blogs<i class="material-icons right">more_vert</i></span
+                  >
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Blogs<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4"
+                    >Blogs<i class="material-icons right">close</i></span
+                  >
                   <p>
-                    Have a passion for blogging? Let's help you create that unique platform where you share 
-                    your thoughts or articles on trending issues or anything at all you feel you want to talk 
+                    Have a passion for blogging? Let's help you create that
+                    unique platform where you share your thoughts or articles on
+                    trending issues or anything at all you feel you want to talk
                     about.
                   </p>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
               </div>
             </div>
-  
+
             <div class="col s12 m6 l5">
               <div class="card z-depth-3">
-                <div class="card-image waves-effect waves-block waves-light solutions-card-image-height">
-                  <img class="activator" height="100%" src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523952/undraw_mobile_web_2g8b.svg">
+                <div
+                  class="card-image waves-effect waves-block waves-light solutions-card-image-height"
+                >
+                  <img
+                    class="activator"
+                    height="100%"
+                    src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579523952/undraw_mobile_web_2g8b.svg"
+                  />
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Mobile Apps<i class="material-icons right">more_vert</i></span>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Mobile Apps<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Mobile Apps<i class="material-icons right">close</i></span>
+                  <span class="card-title grey-text text-darken-4"
+                    >Mobile Apps<i class="material-icons right">close</i></span
+                  >
                   <p>
-                    Feel like your business now needs a mobile application? Well, we got you covered!
-                    With our passionate team of mobile developers, we aim to develop stunning mobile
-                    solutions with great simplicity and accessibility while maintaining the beautiful look you'll love.
+                    Feel like your business now needs a mobile application?
+                    Well, we got you covered! With our passionate team of mobile
+                    developers, we aim to develop stunning mobile solutions with
+                    great simplicity and accessibility while maintaining the
+                    beautiful look you'll love.
                   </p>
-                  <p><a class="waves-effect waves-light btn-large buttons">Contact Us</a></p>
+                  <p>
+                    <button class="waves-effect waves-light btn-large buttons modal-trigger" data-target="contact_modal"> Contact Us</button>
+                  </p>
                 </div>
               </div>
             </div>
@@ -194,38 +300,94 @@
 
     <article class="email-subscription-box center-align">
       <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup" class="container">
-  <form action="https://gmail.us4.list-manage.com/subscribe/post?u=7cea96681a6e2c68bc5154977&amp;id=cec4af8cf3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-    <label for="mce-EMAIL"><h3 id="email-subscription-header">Stay Upadted!</h3></label>
-    <p class="main-grey-dark" id="email-subscription-text">Receive Special discount offers, tips on how to scale a website, and ecommerce tips by subscribing to our weekly mail!</p>
-    <input type="email" value="" name="EMAIL" class="email email-input-field hide-on-small-only" id="mce-EMAIL" placeholder="email address" required>
-    <input type="email" value="" name="EMAIL" class="email email-input-field-mobile hide-on-med-and-up" id="mce-EMAIL" placeholder="email address" required>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7cea96681a6e2c68bc5154977_cec4af8cf3" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button class email-input-field-button"></div>
+      <div id="mc_embed_signup" class="container">
+        <form
+          action="https://gmail.us4.list-manage.com/subscribe/post?u=7cea96681a6e2c68bc5154977&amp;id=cec4af8cf3"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL"
+              ><h3 id="email-subscription-header">Stay Upadted!</h3></label
+            >
+            <p class="main-grey-dark" id="email-subscription-text">
+              Receive Special discount offers, tips on how to scale a website,
+              and ecommerce tips by subscribing to our weekly mail!
+            </p>
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="email email-input-field hide-on-small-only"
+              id="mce-EMAIL"
+              placeholder="email address"
+              required
+            />
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="email email-input-field-mobile hide-on-med-and-up"
+              id="mce-EMAIL"
+              placeholder="email address"
+              required
+            />
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_7cea96681a6e2c68bc5154977_cec4af8cf3"
+                tabindex="-1"
+                value=""
+              />
+            </div>
+            <div class="clear">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button class email-input-field-button"
+              />
+            </div>
+          </div>
+        </form>
       </div>
-  </form>
-  </div>
-  
-  <!--End mc_embed_signup-->
+
+      <!--End mc_embed_signup-->
     </article>
 
-    <article class="extras container section">
-      <h4 class="center-align">Here's What you could Get By Building With Us</h4>
+    <article class="extras container section" id="awesome_perks">
+      <h4 class="center-align">
+        Here's What you could Get By Building With Us
+      </h4>
       <section class="extras-inner-container">
         <div class="row">
           <div class="col s12 m7 l6">
             <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wrapper">
                 <div class="col s2">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png"
+                    alt=""
+                    class="circle responsive-img"
+                  />
+                  <!-- notice the "circle" class -->
                 </div>
                 <div class="col s10">
                   <span class="black-text">
-                    <b style="display: block; line-height: 0;" class="center-align">SEO</b> <br>
-                     We provide great search engine optimisation to enable you get great ranking on google. 
-                     By doing this we aim to 
+                    <b
+                      style="display: block; line-height: 0;"
+                      >STUNNING WEB DESIGNS</b
+                    >
+                    <br />
+                    Beautiful websites attracts people and make them what to interract more
+                    with your website. Knowing this, we make sure our we develop high performant 
+                    sites/apps but with stunning designs.
                   </span>
                 </div>
               </div>
@@ -237,13 +399,22 @@
             <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wrapper">
                 <div class="col s2">
-                  <img src="https://res.cloudinary.com/dcft8yhab/image/upload/v1573605361/dcwnxc25rjxoro2ipskn.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png"
+                    alt=""
+                    class="circle responsive-img"
+                  />
+                  <!-- notice the "circle" class -->
                 </div>
                 <div class="col s10">
                   <span class="black-text">
-                    This is a square image. Add the "circle" class to it to make it appear circular.
-                    Receive Special discount offers, tips on how to scale a website, and ecommerce tips by 
-                    subscribing to our weekly mail!
+                    <b
+                      style="display: block; line-height: 0;"
+                      >GREAT CUSTOMER SUPPORT</b
+                    ><br/>
+                    We know that when we treat you well, you're likely to even recommend us to others too.
+                    Having this in mind that you might even have other needs after the job is done, we make sure
+                    we attend to you even after the job has been done.
                   </span>
                 </div>
               </div>
@@ -255,12 +426,22 @@
             <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wrapper">
                 <div class="col s2">
-                  <img src="https://res.cloudinary.com/dcft8yhab/image/upload/v1573605361/dcwnxc25rjxoro2ipskn.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png"
+                    alt=""
+                    class="circle responsive-img"
+                  />
+                  <!-- notice the "circle" class -->
                 </div>
                 <div class="col s10">
                   <span class="black-text">
-                    This is a square image. Add the "circle" class to it to make it appear circular.
-                    Receive Special discount offers, tips on how to scale a website, and ecommerce tips by subscribing to our weekly mail!
+                    <b
+                      style="display: block; line-height: 0;"
+                      >BUSINESS GROWTH TIPS</b
+                    ><br/>
+                    By joining our mailing list, we provide you with tips on how to grow your business and 
+                    online attention. Quality growth takes time, and we make sure to help guide you in 
+                    making the right decisions for your business.
                   </span>
                 </div>
               </div>
@@ -272,19 +453,34 @@
             <div class="card-panel grey lighten-5 z-depth-1">
               <div class="row valign-wrapper">
                 <div class="col s2">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ski_trail_rating_symbol-blue_square.svg/600px-Ski_trail_rating_symbol-blue_square.svg.png"
+                    alt=""
+                    class="circle responsive-img"
+                  />
+                  <!-- notice the "circle" class -->
                 </div>
                 <div class="col s10">
                   <span class="black-text">
-                    This is a square image. Add the "circle" class to it to make it appear circular.
-                    Receive Special discount offers, tips on how to scale a website, and ecommerce tips by subscribing to our weekly mail!
+                    <b
+                      style="display: block; line-height: 0;"
+                      >SCALABILITY</b
+                    ><br/>
+                    There's always something extra you might want to add in the future
+                    We build our softwares to accomodate these future changes and help you
+                    bring your immaginations to life!
                   </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <p class="center-align"><a class="waves-effect waves-light btn-large buttons extras-button">Request An Website/ Mobile Application now</a></p>
+        <p class="center-align">
+
+          <button class="waves-effect waves-light btn-large buttons extras-button modal-trigger" data-target="contact_modal">
+            Request a Website/Modile Application Now
+          </button>
+        </p>
       </section>
     </article>
 
@@ -292,59 +488,126 @@
       <h3 class="heading affiliate-heading">Earn Money With Affiliate</h3>
       <div class="row container">
         <div class="col s12 m6 lg">
-          <img class="affiliate-img responsive-img" src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579643833/teamwork-4776072_640.jpg" alt="">
+          <img
+            class="affiliate-img responsive-img"
+            src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579643833/teamwork-4776072_640.jpg"
+            alt=""
+          />
         </div>
         <div class="col s12 m6 lg">
           <p class="affiliate-text">
-            This is a square image. Add the "circle" class to it to make it appear circular. 
-          Receive Special discount offers, tips on how to scale a website, and ecommerce 
-          tips by subscribing to our weekly mail! is a square image. Add the "circle" 
-          class to it to make it appear circular.Receive Special discount offers, tips 
-          on how to scale a website, and ecommerce tips by subscribing to our weekly mail!
+            By becoming an affiliate, you signup to be a third party member of our team.
+            As an affiliate, you're not required to know anything about coding, all you
+            have to do is to refer clients to us. For early birds into the affliate,
+            you'll get as high as 20% of our profit, if the deal is successful.
+            Join Our Affliates program now!
           </p>
         </div>
       </div>
-            <!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup" class="container">
-  <form action="https://gmail.us4.list-manage.com/subscribe/post?u=7cea96681a6e2c68bc5154977&amp;id=cec4af8cf3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-    <label for="mce-EMAIL"><p class="heading" id="affiliate-subscribe-mail-heading">Become An Affiliate</p></label>
-    <p class="center-align" id="affiliate-extra-text">We would send you a mail and add you to our list of affiliates when you provide your email to us!</p>
-    <input type="email" value="" name="EMAIL" class="email email-input-field hide-on-small-only" id="mce-EMAIL" placeholder="email address" required>
-    <input type="email" value="" name="EMAIL" class="email email-input-field-mobile hide-on-med-and-up" id="mce-EMAIL" placeholder="email address" required>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7cea96681a6e2c68bc5154977_cec4af8cf3" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button class email-input-field-button"></div>
+      <!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup" class="container">
+        <form
+          action="https://gmail.us4.list-manage.com/subscribe/post?u=7cea96681a6e2c68bc5154977&amp;id=cec4af8cf3"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL"
+              ><p class="heading" id="affiliate-subscribe-mail-heading">
+                Become An Affiliate
+              </p></label
+            >
+            <p class="center-align" id="affiliate-extra-text">
+              We would send you a mail and add you to our list of affiliates
+              when you provide your email to us!
+            </p>
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="email email-input-field hide-on-small-only"
+              id="mce-EMAIL"
+              placeholder="email address"
+              required
+            />
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="email email-input-field-mobile hide-on-med-and-up"
+              id="mce-EMAIL"
+              placeholder="email address"
+              required
+            />
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_7cea96681a6e2c68bc5154977_cec4af8cf3"
+                tabindex="-1"
+                value=""
+              />
+            </div>
+            <div class="clear">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="button class email-input-field-button"
+              />
+            </div>
+          </div>
+        </form>
       </div>
-  </form>
-  </div>
-  
-  <!--End mc_embed_signup-->
+
+      <!--End mc_embed_signup-->
     </article>
-    <img class="affiliate-box-wave" src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579644992/wave_2.svg" alt="">
+    <img
+      class="affiliate-box-wave"
+      src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579644992/wave_2.svg"
+      alt=""
+    />
 
     <article class="get-started-section">
       <div class="get-started-div center-align">
         <div class="container">
           <!-- <p class="getting-started-text">Siriously! Do you want to take that MASSIVE step towards acheiving your goals for the year?</p>
           <p class="getting-started-text">Do you want to create a Website or Mobile Application?</p> -->
-          <p class="getting-started-text">Want a Website or Mobile Application?</p>
-          <button id="getting-started-button">ORDER!</button>
+          <p class="getting-started-text">
+            Want a Website or Mobile Application?
+          </p>
+          <button id="getting-started-button" class="modal-trigger" data-target="contact_modal">ORDER!</button>
         </div>
       </div>
     </article>
     <footer class="center-align">
-      <img src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579723625/spillcode_text_design.png" alt="a text design of the name spillcode">
+      <img
+        src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579723625/spillcode_text_design.png"
+        alt="a text design of the name spillcode"
+      />
       <div class="social-icons">
-        <a href="#" id="facebook-icon"><i class="fab slks fa-facebook-square"></i></a>
+        <a href="#" id="facebook-icon"
+          ><i class="fab slks fa-facebook-square"></i
+        ></a>
         <a href="#" id="twitter-icon"><i class="fab fa-twitter-square"></i></a>
         <a href="#" id="instagram-icon"><i class="fab fa-instagram"></i></a>
       </div>
       <p id="footer">All Rights Reserved. SpillCode 2020.</p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://kit.fontawesome.com/b8cb366812.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b8cb366812.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      
+    </script>
   </body>
 </html>
