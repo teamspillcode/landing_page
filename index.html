@@ -42,42 +42,68 @@
     />
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper white">
-        <a href="#!" class="brand-logo"
-          ><img
-            src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579545975/spillcode_logo.svg"
-            height="50"
-            alt="company's logo"
-            class=""
-        /></a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons purple-text">menu</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#" class="nav-items">About Us</a></li>
-          <li><a href="#solutions" class="nav-items">Solutions</a></li>
-          <li>
-          </li>
-          <li><a href="#awesome_perks" class="nav-items">Awesome Perks</a></li>
-          <li>
-            <a href="#affiliate" class="nav-items">Become An Affiliate</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed" id="navbar-box">
+      <nav>
+        <div class="nav-wrapper white">
+          <a href="#!" class="brand-logo"
+            ><img
+              src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579545975/spillcode_logo.svg"
+              height="50"
+              alt="company's logo"
+              class=""
+          /></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons purple-text">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#" class="nav-items">About Us</a></li>
+            <li><a href="#solutions" class="nav-items">Solutions</a></li>
+            <li>
+            </li>
+            <li><a href="#awesome_perks" class="nav-items">Awesome Perks</a></li>
+            <li>
+              <a href="#affiliate" class="nav-items">Become An Affiliate</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">About Us</a></li>
-      <li><a href="badges.html">Solutions</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#solutions">Solutions</a></li>
       <li><a href="#awesome_perks">Awesome Perks</a></li>
-      <li><a href="mobile.html">Become An Affiliate</a></li>
+      <li><a href="#affiliate">Become An Affiliate</a></li>
     </ul>
 
     <!-- Modal Structure -->
     <div id="contact_modal" class="modal">
-      <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
+      <div class="modal-content center-align">
+        <h4>Here's How</h4>
+        <p>
+          <a
+            class="waves-effect waves-light btn-large buttons"
+            id="whatsapp-top-button"
+            ><img
+              src="https://res.cloudinary.com/dcft8yhab/image/upload/v1579989401/whatsapp_icon.png"
+              height="30px"
+              style="margin-top:14px; margin-left: -20px; position: absolute;"
+              alt=""
+            /><span style="margin-left: 15px">Send Us A WhatsApp Message</span></a
+          >
+        </p>
+        <p>
+          <a
+            class="waves-effect waves-light btn-large buttons"
+            id="email-modal-button"
+            href="mailto: teamspillcode@gmail.com"
+            ><img
+              src="https://res.cloudinary.com/dcft8yhab/image/upload/v1582319901/gmail_icon2.png"
+              height="30px"
+              style="margin-top:14px; margin-left: -20px; position: absolute;"
+              alt=""
+            /><span style="margin-left: 30px">Shoot Us An Email</span></a
+          >
+        </p>
       </div>
       <div class="modal-footer">
         <a href="#!" class="modal-close waves-effect waves-green btn-flat"
@@ -600,14 +626,12 @@
       <p id="footer">All Rights Reserved. SpillCode 2020.</p>
     </footer>
 
-    <script src="index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script
       src="https://kit.fontawesome.com/b8cb366812.js"
       crossorigin="anonymous"
     ></script>
-    <script>
-      
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

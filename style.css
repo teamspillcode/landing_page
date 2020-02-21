@@ -16,6 +16,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+nav{
+    box-shadow: none !important;
+}
 .heading{
     font-size: 30px;
     font-weight: bold;
@@ -81,6 +84,10 @@ h1,h2,h3,h4,h5,h6{
     border: 2px solid green;
     color: green;
     box-shadow: none;
+}
+#email-modal-button{
+    background-color: rgb(212, 4, 4) !important;
+    color: white;
 }
 .welcome-img-box{
     position: absolute;
