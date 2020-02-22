@@ -22,3 +22,34 @@ $(function() {
     }
   });
 });
+
+// SCROLL MAGIC FUNCTIONALITY
+
+const controller = new ScrollMagic.Controller();
+const scene = new ScrollMagic.Scene({
+  triggerElement: '.solution-card-1',
+  offset: -400
+})  
+.setClassToggle('.solution-card-1', 'move-up')
+.addTo(controller);
+
+const scene2 = new ScrollMagic.Scene({
+  triggerElement: '.solution-card-2',
+  offset: -350
+})
+.setClassToggle('.solution-card-2', 'move-up')
+.addTo(controller);
+
+const scene3 = new ScrollMagic.Scene({
+  triggerElement: '.solution-card-3',
+  offset: -500
+})
+.setClassToggle('.solution-card-3', 'move-up')
+.addTo(controller);
+
+const scene4 = new ScrollMagic.Scene({
+  triggerElement: '.solution-card-4',
+  offset: -400
+})
+.setClassToggle('.solution-card-4', 'move-up')
+.addTo(controller);

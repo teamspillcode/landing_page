@@ -130,6 +130,40 @@ nav{
 }
 #solutions-heading{
     color: rgb(240, 240, 240);
+    margin-bottom: 3%
+}
+.solution-cards{
+    margin-top: 15%;
+}
+.move-up{
+    animation-name: jerk;
+    animation-duration: .3s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes jerk{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-30%);
+    }
+}
+.solution-card-1{
+    transition: all 1s;
+
+}
+.solution-card-2{
+    transition: all 1s;
+
+}
+.solution-card-3{
+    transition: 3s;
+
+}
+.solution-card-4{
+    transition: 3s;
+
 }
 .solutions-card-image-height{
     height: 220px;
@@ -274,6 +308,12 @@ nav{
     }
     .welcome-img{
         margin-left: -3%;
+    }
+    .solutions-intro-text{
+        margin-bottom: 10% !important;
+    }
+    .solution-cards{
+        margin-top: 20%;
     }
     #email-subscription-header{
         font-size: 30px;
