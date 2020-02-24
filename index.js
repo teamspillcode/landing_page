@@ -53,3 +53,33 @@ const scene4 = new ScrollMagic.Scene({
 })
 .setClassToggle('.solution-card-4', 'move-up')
 .addTo(controller);
+
+// THIS SECTIONS ADD THE ANIMATION FOR THE SECTION "WHAT YOU GET BY BUILDING WITH US"
+
+card1 = new ScrollMagic.Scene({
+  triggerElement: '.stunning-web-designs',
+  offset: -300
+})
+.setClassToggle('.stunning-web-designs', 'slide-in-right')
+.addTo(controller);
+
+card2 = new ScrollMagic.Scene({
+  triggerElement: '.great-customer-support',
+  offset: -300
+})
+.setClassToggle('.great-customer-support', 'slide-in-left')
+.addTo(controller);
+
+card3 = new ScrollMagic.Scene({
+  triggerElement: '.business-growth-tips',
+  offset: -300
+})
+.setClassToggle('.business-growth-tips', 'slide-in-right')
+.addTo(controller);
+
+card4 = new ScrollMagic.Scene({
+  triggerElement: '.scalability',
+  offset: -300
+})
+.setClassToggle('.scalability', 'slide-in-left')
+.addTo(controller);

@@ -179,6 +179,46 @@ nav{
     margin-bottom: 0 !important;
     color: var(--main-grey-light);
 }
+.stunning-web-designs{
+    transform: translateX(-150%);
+}
+.great-customer-support{
+    transform: translateX(150%);
+}
+.business-growth-tips{
+    transform: translateX(-150%)
+}
+.scalability{
+    transform: translateX(150%);
+}
+.slide-in-right{
+    animation-name: right-slide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+.slide-in-left{
+    animation-name: left-slide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+@keyframes right-slide{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes left-slide{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
 .extras h4{
     font-weight: bold;
 }
