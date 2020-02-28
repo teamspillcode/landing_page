@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Poppins', sans-serif !important;
-    width: 100vh;
     overflow-x: hidden;
 }
 p{
@@ -152,7 +151,7 @@ nav{
     }
 }
 .solution-card-1{
-    transition: all 1s;
+    transform: translateY(-30%)
 
 }
 .solution-card-2{
