@@ -358,7 +358,10 @@ nav{
         margin-bottom: 10% !important;
     }
     .solution-cards{
-        margin-top: 20%;
+        transform: translateY(50px);
+    }
+    .solution-card-1{
+        margin-top: 10% !important;
     }
     #email-subscription-header{
         font-size: 30px;
