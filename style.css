@@ -90,6 +90,12 @@ nav{
     background-color: rgb(212, 4, 4) !important;
     color: white;
 }
+#modal-call-button{
+    background-color: transparent !important;
+    border: 2px solid rgb(4, 105, 219);
+    color: rgb(4, 105, 219);
+    box-shadow: none;
+}
 .welcome-img-box{
     position: absolute;
 }
