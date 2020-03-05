@@ -264,8 +264,15 @@ nav{
     font-style: italic;
     font-weight: bold;
 }
+#affilite-buton{
+    margin-bottom: 2%;
+    padding-top: 10px;
+    padding-bottom: 45px !important;
+    padding-left: 60px !important;
+    padding-right: 60px;
+}
 .affiliate-box-wave{
-    margin-top: -10px;
+    margin-top: -4px;
 }
 #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%; margin-top: -10%;}
 #affiliate-subscribe-mail-heading{
@@ -273,7 +280,9 @@ nav{
 }
 #affiliate-extra-text{
     color: var(--main-grey-light);
-    margin-top: -1px;
+    font-size: 14px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .email-input-field{
     width: 50% !important;
